@@ -19,12 +19,12 @@ if __name__ == "__main__":
 -   ScrapTheLink(Number in the order of news list) - will show all <p> tags in the choosen news link.
 - Example:
 if __name__ == "__main__":
-    coinScraper = news_scraper()
-    overviewScraper = overview_scraper()
-- # scraps the overview of the coin
-    overviewScraper.ScrapOverview('cardano')
-- # scraps the news 
-    coinScraper.find_coin_news('cardano')
-
-- # scraps the p tags in choosen news 1-10
-    coinScraper.ScrapTheLink(5)
+-     coinScraper = news_scraper()
+    
+-     overviewScraper = overview_scraper()
+    
+-     overviewScraper.ScrapOverview('cardano')
+    
+-     coinScraper.find_coin_news('cardano')
+    
+-     coinScraper.ScrapTheLink(5)
